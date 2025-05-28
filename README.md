@@ -42,11 +42,10 @@ for filename in filenames:
 iio.imwrite('output.gif', images, duration=10, loop=0)
 ```
 The script will generate an animated GIF named output.gif.
-
-⚙️ Parameters
-Parameter	Description	Example
-duration	Time per frame in milliseconds	10
-loop	Number of times the GIF should repeat	0 (infinite loop)
+| Parameter   | Description                             | Example      |
+|-------------|-----------------------------------------|--------------|
+| `duration`  | Time per frame in milliseconds          | `10`         |
+| `loop`      | Number of times the GIF should repeat   | `0` (infinite loop) |
 
 ## 📌 Notes
 Make sure all input images are the same dimensions for smooth playback.
